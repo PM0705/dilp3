@@ -183,7 +183,46 @@
                 </div>
             </div>
         </section>
+        <section class="pr section">
+            <h2>D.I.Worksを利用する3つのメリット</h2>
+            <div class="pr-corner">
+                <ul>
+                    <li>
+                        <div class="pr-iconimg">
+                            <img src="img/check.png" alt="TOPmainビジュアル画像">
+                        </div>
+                        <div class="pr-textbox">
+                            <h3>日本全国どこでも最適人材をマッチング</h3>
+                            <p>全てのコーディネータが現場経験をしているからこそ知識も豊富で企業様の要望に的確に対応でき最適なスタッフをご紹介できることがD.I.Worksの特徴でもあります。企業様の要望にどのような人材が必要かはスキルだけでなく求められる人柄や会社の雰囲気に合う人材の選定に自信があります。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr-iconimg">
+                            <img src="img/check.png" alt="TOPmainビジュアル画像">
+                        </div>
+                        <div class="pr-textbox">
+                            <h3>最短翌営業日に
+                                紹介可能なスピード対応</h3>
+                            <p>ご依頼後、最短で翌営業日に人材をご紹介いたします。D.I.Worksの特徴でもこのスピード感は様々な企業様のご要望にお応えできるようにするため全国にある拠点に様々な職種を経験したスタッフは配置しております。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr-iconimg">
+                            <img src="img/check.png" alt="TOPmainビジュアル画像">
+                        </div>
+                        <div class="pr-textbox">
+                            <h3>優秀な人材は
+                                貴社の正社員へ</h3>
+                            <p>紹介予定派遣なら派遣スタッフを貴社で直接雇用ができます。最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。詳しくはお問い合わせください。</p>
+                        </div>
+                    </li>
 
+
+                </ul>
+
+            </div>
+
+        </section>
 
 
 

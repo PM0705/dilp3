@@ -287,9 +287,13 @@ header li+li {
   font-size: 30px;
   text-align: center;
   color: #155492;
-
 }
 
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #033474
+}
 
 /* first_viewPC */
 .first_view {
@@ -297,8 +301,8 @@ header li+li {
   background-size: cover;
   background-repeat: no-repeat;
   background: contain;
-  background-position: center;
-  min-height: 200px;
+  background-position: right;
+  /* min-height: 200px; */
   width: 100%;
   overflow: hidden;
 
@@ -318,6 +322,7 @@ header li+li {
 
 .first_view h2 {
   font-size: 28px;
+  text-align-last: left;
 }
 
 .first_view h2 span {
@@ -389,6 +394,10 @@ header li+li {
 
 
 /* trouble */
+.trouble-relative {
+  position: relative;
+}
+
 .trouble-title {
   margin: 80px auto 16px;
 }
@@ -398,29 +407,26 @@ header li+li {
 
 }
 
-.trouble-relative {
-  position: relative;
-}
-
 .trouble-corner {
   background-color: #ebebeb;
   width: 90%;
   margin: 0 auto;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
   position: absolute;
-  top: 0;
+  top: -650px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  z-index: 3;
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
 }
+
+
 
 
 .trouble-box {
   width: 80%;
   margin: 0 auto;
-
+  width: 90%;
 }
 
 .trouble-box p {
@@ -492,13 +498,7 @@ header li+li {
   background-color: #155492;
   text-align: center;
   padding: 160px 0;
-  position: absolute;
-  bottom: -1040px;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  width: 100%;
+  margin-top: 700px;
 }
 
 .trouble-bottom h2 {
@@ -511,6 +511,49 @@ header li+li {
   color: white;
   padding-top: 24px;
 }
+
+
+
+/* pr */
+.pr {
+  background-color: #ebebeb;
+  position: static;
+}
+
+.pr-corner li {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 32px;
+}
+
+.pr-corner li:first-child {
+  margin-top: 40px;
+}
+
+.pr-corner li+li {
+  margin-top: 32px;
+}
+
+.pr-iconimg img {
+  width: 100px;
+}
+
+.pr-textbox h3 {
+  color: #002e71;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+.pr-textbox p {
+  font-size: 16px;
+}
+
 
 
 

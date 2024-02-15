@@ -46,7 +46,7 @@ body {
 
 /* sectionクラス単位のこと */
 .section {
-  padding: 100px 0 160px;
+  padding: 80px 0 80px;
 }
 
 section {
@@ -363,10 +363,10 @@ h2 {
 
 .button {
   background-color: #fa8a03;
-  padding: 20px 50px;
+  padding: 20px 80px;
 }
 
-.button :hover {
+.buttom-hover :hover {
   color: white;
   background-color: #FAA755
 }
@@ -554,6 +554,91 @@ h2 {
   font-size: 16px;
 }
 
+/* area */
+.area {
+  background-color: #f9f9f9;
+}
+
+/* 色が変わる線 */
+.underline {
+  display: table;
+  border-top: 3px solid #155492;
+  border-bottom: 3px solid #155492;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  margin: 0 auto;
+  /*右：黒*/
+}
+
+.underline::before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  width: 22%;
+  height: 3px;
+  background: #f25a26;
+  /*左：オレンジ*/
+}
+
+.topline::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  width: 22%;
+  height: 3px;
+  background: #f25a26;
+  /*左：オレンジ*/
+}
+
+
+.area h2 span {
+  color: #f25a26;
+}
+
+.area-flex {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5%;
+  width: 90%;
+  margin: 52px auto 0;
+}
+
+.area-japanimg {
+  width: 800px;
+}
+
+.area-japanimg img {
+  width: 100%;
+}
+
+.area-textbox>p {
+  padding: 0 0 20px;
+
+}
+
+.area-textbox {
+  font-size: 16px;
+}
+
+.area-textbox li p:first-child {
+  font-size: 16px;
+  display: inline-block;
+  background: #f25a26;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 800px;
+}
+
+.area-textbox li p:nth-child(2) {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.area-textbox li+li {
+  margin-top: 20px;
+}
 
 
 

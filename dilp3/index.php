@@ -85,7 +85,7 @@
             </div>
             <div class="first_view-bottom">
                 <div class="bottom-flex">
-                    <div class="button">
+                    <div class="buttom-hover">
                         <a href="regist.php" class="button">お問い合わせ</a>
                     </div>
                     <div class="telbox">
@@ -216,15 +216,57 @@
                             <p>紹介予定派遣なら派遣スタッフを貴社で直接雇用ができます。最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。詳しくはお問い合わせください。</p>
                         </div>
                     </li>
-
-
                 </ul>
-
             </div>
-
         </section>
 
-
+        <section class="area section">
+            <div class="underline topline">
+                <h2><span>全国の全てのエリア</span>ですぐに対応いたします</h2>
+            </div>
+            <div class="area-flex">
+                <div class="area-japanimg">
+                    <img src="img/japan.png" alt="TOPmainビジュアル画像">
+                </div>
+                <div class="area-textbox">
+                    <p>D.I.Worksは全国エリアをさらに拡大中<br>全国の企業の皆様が必要とする人材にお答えします。</p>
+                    <ul>
+                        <li>
+                            <p>北海道・東北エリア</p>
+                            <p>北海道｜青森県｜秋田県｜岩手県｜山形県｜宮城県｜福島県</p>
+                        </li>
+                        <li>
+                            <p>北関東エリア</p>
+                            <p>群馬県｜栃木県｜茨城県</p>
+                        </li>
+                        <li>
+                            <p>首都圏エリア</p>
+                            <p>東京都｜神奈川県｜埼玉県｜千葉県</p>
+                        </li>
+                        <li>
+                            <p>甲信越・北陸エリア</p>
+                            <p>新潟県｜石川県｜富山県｜長野県｜山梨県｜福井県</p>
+                        </li>
+                        <li>
+                            <p>東海エリア</p>
+                            <p>愛知県｜三重県｜岐阜県｜静岡県</p>
+                        </li>
+                        <li>
+                            <p>関西エリア</p>
+                            <p>大阪府｜京都府｜兵庫県｜滋賀県｜奈良県｜和歌山県</p>
+                        </li>
+                        <li>
+                            <p>中国・四国エリア</p>
+                            <p>鳥取県｜岡山県｜島根県｜広島県｜山口県｜香川県｜徳島県｜愛媛県｜高知県</p>
+                        </li>
+                        <li>
+                            <p>九州エリア</p>
+                            <p>福岡県｜佐賀県｜長崎県｜熊本県｜大分県｜宮崎県｜鹿児島県｜沖縄県</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
 
 
